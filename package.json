@@ -6,7 +6,7 @@
   "scripts": {
     "gen": "node scripts/build-data.js",
     "dev": "npm run gen && vite",
-    "build": "npm run gen && vite build",
+    "build": "npm run gen && vite build --base=/2025-registration/",
     "preview": "vite preview"
   },
   "devDependencies": {
